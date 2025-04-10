@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objSolidWater1N1",
+  "%Name":"objSolid3",
   "eventList":[],
   "managed":true,
-  "name":"objSolidWater1N1",
+  "name":"objSolid3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Sprite63",
     "path":"sprites/Sprite63/Sprite63.yy",
