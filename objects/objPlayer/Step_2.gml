@@ -4,10 +4,18 @@ function get_sprite(action, face) {
         case "WalkU": return sprPlayerWalkU;
         case "WalkL": return sprPlayerWalkL;
         case "WalkR": return sprPlayerWalkR;
-        case "StandD": return sprPlayerStandD;
-        case "StandU": return sprPlayerStandU;
-        case "StandL": return sprPlayerStandL;
-        case "StandR": return sprPlayerStandR;
-        default: return sprPlayerStandD;
+		case "WalkDL": return sprPlayerWalkDL;
+        case "WalkDR": return sprPlayerWalkUR;
+        case "WalkUL": return sprPlayerWalkUL;
+        case "WalkUR": return sprPlayerWalkUR;
+        case "IdleD": return sprPlayerIdleD;
+        case "IdleU": return sprPlayerIdleU;
+        case "IdleL": return sprPlayerIdleL;
+        case "IdleR": return sprPlayerIdleR;
+		case "IdleDL": return sprPlayerIdleDR;
+        case "IdleDR": return sprPlayerIdleDL;
+        case "IdleUL": return sprPlayerIdleUL;
+        case "IdleUR": return sprPlayerIdleUR;
+        default: return sprPlayerIdleD;
     }
 }

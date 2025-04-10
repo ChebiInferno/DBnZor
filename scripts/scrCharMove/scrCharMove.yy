@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrCharMove",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrCharMove",
+  "parent":{
+    "name":"Character",
+    "path":"folders/Scripts/Character.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
