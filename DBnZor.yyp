@@ -52,7 +52,9 @@
     {"id":{"name":"objSolid4","path":"objects/objSolid4/objSolid4.yy",},},
     {"id":{"name":"objSolid5","path":"objects/objSolid5/objSolid5.yy",},},
     {"id":{"name":"objSolid6","path":"objects/objSolid6/objSolid6.yy",},},
+    {"id":{"name":"objSolid7","path":"objects/objSolid7/objSolid7.yy",},},
     {"id":{"name":"Nivel1","path":"rooms/Nivel1/Nivel1.yy",},},
+    {"id":{"name":"Nivel2","path":"rooms/Nivel2/Nivel2.yy",},},
     {"id":{"name":"scrCharLook","path":"scripts/scrCharLook/scrCharLook.yy",},},
     {"id":{"name":"scrCharMove","path":"scripts/scrCharMove/scrCharMove.yy",},},
     {"id":{"name":"scrPlayerMovement","path":"scripts/scrPlayerMovement/scrPlayerMovement.yy",},},
@@ -111,6 +113,7 @@
     {"id":{"name":"Sprite62","path":"sprites/Sprite62/Sprite62.yy",},},
     {"id":{"name":"Sprite63","path":"sprites/Sprite63/Sprite63.yy",},},
     {"id":{"name":"Sprite73","path":"sprites/Sprite73/Sprite73.yy",},},
+    {"id":{"name":"Sprite74","path":"sprites/Sprite74/Sprite74.yy",},},
     {"id":{"name":"sprMask","path":"sprites/sprMask/sprMask.yy",},},
     {"id":{"name":"sprPlayerIdleD","path":"sprites/sprPlayerIdleD/sprPlayerIdleD.yy",},},
     {"id":{"name":"sprPlayerIdleDL","path":"sprites/sprPlayerIdleDL/sprPlayerIdleDL.yy",},},
@@ -133,6 +136,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Nivel1","path":"rooms/Nivel1/Nivel1.yy",},},
+    {"roomId":{"name":"Nivel2","path":"rooms/Nivel2/Nivel2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
