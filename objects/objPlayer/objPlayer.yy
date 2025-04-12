@@ -32,9 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayerStandD",
-    "path":"sprites/sprPlayerStandD/sprPlayerStandD.yy",
+    "name":"sprPlayerIdleD",
+    "path":"sprites/sprPlayerIdleD/sprPlayerIdleD.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sprMask",
+    "path":"sprites/sprMask/sprMask.yy",
+  },
   "visible":true,
 }
