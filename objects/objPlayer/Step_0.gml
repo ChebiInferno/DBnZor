@@ -16,7 +16,8 @@ if (speed == 0) {
 		    !collision_line(x, y, x + 16, y, objSolid3, false, true)&&
 			!collision_line(x, y, x + 16, y, objSolid4, false, true) &&
 		    !collision_line(x, y, x + 16, y, objSolid5, false, true) &&
-			!collision_line(x, y, x + 16, y, objSolid6, false, true)) {
+			!collision_line(x, y, x + 16, y, objSolid6, false, true)&&
+			!collision_line(x, y, x + 16, y, objSolid7, false, true)) {
             hspeed = spd;
             distance = 16;
             sprite_index = sprPlayerWalkR;
@@ -28,7 +29,8 @@ if (speed == 0) {
 		    !collision_line(x, y, x - 16, y, objSolid3, false, true)&&
 			!collision_line(x, y, x - 16, y, objSolid4, false, true) &&
 		    !collision_line(x, y, x - 16, y, objSolid5, false, true) &&
-			!collision_line(x, y, x - 16, y, objSolid6, false, true)) {
+			!collision_line(x, y, x - 16, y, objSolid6, false, true) &&
+			!collision_line(x, y, x - 16, y, objSolid7, false, true)) {
             hspeed = -spd;
             distance = 16;
             sprite_index = sprPlayerWalkL;
@@ -40,7 +42,8 @@ if (speed == 0) {
 		    !collision_line(x, y, x, y - 16, objSolid3, false, true) &&
 			!collision_line(x, y, x, y - 16, objSolid4, false, true) &&
 		    !collision_line(x, y, x, y - 16, objSolid5, false, true) &&
-			!collision_line(x, y, x, y - 16, objSolid6, false, true)) {
+			!collision_line(x, y, x, y - 16, objSolid6, false, true) &&
+			!collision_line(x, y, x, y - 16, objSolid7, false, true)) {
             vspeed = -spd;
             distance = 16;
             sprite_index = sprPlayerWalkU;
@@ -52,7 +55,8 @@ if (speed == 0) {
 		    !collision_line(x, y, x, y + 16, objSolid3, false, true) &&
 			!collision_line(x, y, x, y + 16, objSolid4, false, true) &&
 		    !collision_line(x, y, x, y + 16, objSolid5, false, true) &&
-			!collision_line(x, y, x, y + 16, objSolid6, false, true)) {
+			!collision_line(x, y, x, y + 16, objSolid6, false, true) &&
+			!collision_line(x, y, x, y + 16, objSolid7, false, true)) {
             vspeed = spd;
             distance = 16;
             sprite_index = sprPlayerWalkD;
